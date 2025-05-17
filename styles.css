@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    display: flex;
+    gap: 10px;
+list-style: none;
+
+}
+a {
+color: white;
+
+}
+p {
+    font-size: 10px;
+}
+.centralcontainer {
+    display: flex;
+    flex-direction: column;
+   
+}
+.header {
+    height: 100px;
+    width: auto;
+    background-color: #1F2937;
+    display: flex;
+    
+}
+.headons {
+    display: flex;
+    color: white;
+    width: 600px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.upper {
+align-items: flex-end;
+
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: flex-end;
+margin-right: 80px;
+}
+.blwhead {
+    background-color: #1F2937;
+
+width: auto;
+height: 300px;
+display: flex;
+
+}
+.hero,.posthero {
+    display: flex;
+    flex: 1;
+
+width: 200px;
+
+}
+.trees {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding-right: 20px;
+    font-weight: 900;
+    
+    padding-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.miniheader {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    height: 70px;
+    width: 200px;
+    align-items: center;
+}
+.kubiki {
+    border: 2px solid purple;
+    flex: 4 1 auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cubes {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    flex-shrink: 0;
+    
+}
+.texti {
+    border: 2px solid magenta;
+    word-break: break-word;
+    flex-shrink: 1;
+    min-height: 20px;
+}
+.wtext {
+    border: 1px solid black;
+    display: flex;
+   flex-direction: column;
+    width: 140px;
+    height: 160px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    height: 300px;
+    align-items: center;
+}
