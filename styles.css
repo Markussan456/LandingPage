@@ -122,3 +122,53 @@ width: 200px;
     height: 300px;
     align-items: center;
 }
+.qote-con {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.qote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid seagreen;
+    width: 600px;
+    height: 100px;
+}
+.text {
+align-self: center;
+    flex: 2 1 0;
+}
+.author {
+    align-self: flex-end;
+}
+.cta-con {
+display: flex;
+border: 2px saddlebrown solid;
+height: 300px;
+justify-content: space-around;
+align-items: center;
+
+}
+.cta {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 80px;
+}
+.ctatext {
+
+}
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
